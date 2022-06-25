@@ -11,6 +11,8 @@ Libft is a project for standard C library override functions.
 
 
 ### Part 01
+
+| --- | --- |
 | [**ft\_isalpha**]() | checks for an alphabetic character.|
 | [**ft\_isdigit**]() | checks for a digit (0 through 9).|
 | [**ft\_isalnum**]() | checks for an alphanumeric character.|
@@ -37,6 +39,7 @@ Libft is a project for standard C library override functions.
 
 ### Part 02
 
+| --- | ---|
 | [**ft\_substr**]() | returns the substring of the given start position with thegiven lenght or smaller if the length of the original string is less than start + length.|
 | [**ft\_strjoin**]() | combines all strings in the argument lis, and puts the result into the returned string with dynamically allocated memory. The returned string is separated by the delimiter specified by the first argument separator. The dynamically allocated memory needs to be freed by the user.|
 | [**ft\_strtrim**]() | removes all whitespace characters from the beginning and the end of a string. |
@@ -50,6 +53,8 @@ Libft is a project for standard C library override functions.
 | [**ft\_putnbr\_fd**]() | Outputs the integer ’n’ to the given file descriptor.|
 
 ## Make
+
+| --- | --- |
 | `make` | creates .o files for each function as well as the main library file, libft.a |
 | `make clean` | removes the .o files used to create the library |
 | `make fclean` | removes the .o & .a files used to create the library |
